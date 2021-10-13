@@ -1,5 +1,10 @@
-def happy_new_year
-  # your code here
+require 'pry'
+def happy_new_year(number = 11)
+  while number > 1
+    number -= 1
+    puts number
+  end
+  puts "Happy New Year!"
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
